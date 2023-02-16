@@ -1,0 +1,10 @@
+version: "3"
+services:
+  learn-oracledb-basic:
+    image: gvenzl/oracle-xe:18.4.0
+    environment:
+      ORACLE_PASSWORD: 1521
+    ports:
+      - "1521:1521"
+    volumes:
+      - ./data:/u01/app/oracle/oradata
