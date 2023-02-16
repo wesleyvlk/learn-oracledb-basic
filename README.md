@@ -6,11 +6,15 @@ Este repositório contém exemplos básicos dos meus estudos em Oracle Database.
 
 Este projeto utiliza o Docker Compose para configurar e executar uma imagem do Oracle Database versão 18c (XE edition). Para iniciar, certifique-se de que você tenha o Docker e o Docker Compose instalados em sua máquina, e execute o seguinte comando na pasta do repositório:
 
-`docker-compose up -d`
+```yml
+docker-compose up -d
+```
 
 Isso iniciará o container do banco de dados e permitirá que você execute os exemplos de código contidos neste repositório. Depois de terminar, você pode parar o container executando o comando:
 
-`docker-compose down`
+```yml
+docker-compose down
+```
 
 ### Conteúdo
 
